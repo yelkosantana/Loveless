@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="en_del_index.css">
+	</head>
+	<body>
+        
+        <header>	
+            <img id="pluma" src="pluma.png">
+            <h1 id="titulo">LOVELESS</h1>
+            <h4 id="frase">Todo lo que el ser humano puede imaginar es posible en la realidad&nbsp;</h4>
+        </header>	
+        
+        <nav>
+            <ul id="menu">
+              <li><a href="index.html">Acto 1: Inicio</a></li>
+              <li><a href="quienes_somos.html">Acto 2: Quienes somos</a></li>
+              <li><a href="#contact">Acto 3: Contrucción de mundo</a></li>
+              <li><a href="#about">Acto 4: Contrucción de personaje</a></li>
+            </ul>
+		</nav>
+        
+        
+        <div id="cuerpo">
+            <div id="principal">RED</div>
+            
+            <div id="columna">
+                <div id="comentario1">Un buen escritor expresa grandes cosas con pequeñas palabras.<p>ERNESTO SÁBATO</p></div>  
+                <div id="comentario2">Las palabras constituyen la droga más potente que haya inventado la humanidad.<p>RUDYARD KIPLING</p></div> 
+                <div id="comentario3">Al escribir un libro, a la primera persona a la que deberías complacer es a ti mismo.<p>PATRICIA HIGHSMITH</p></div> 
+                <div id="comentario4">En mi opinión, escribir es un acto secreto, tan secreto como soñar.<p>STEPHEN KING</p></div> 
+                <div id="comentario5">Uno escribe a base de ser un minero de sí mismo.<p>JOSÉ LUIS SAMPEDRO</p></div> 
+            </div>  
+            
+            <div id="enlaces">
+                <div id="primera">
+                    <img id="imagenenlace" src="nosotros.png">
+                </div>  
+                
+                <div id="segunda">
+                    <img id="imagenenlace" src="cmundo.jpg">
+                </div> 
+                
+                <div id="tercera">
+                    <img id="imagenenlace" src="personajes.png">
+                </div> 
+            </div>
+        </div>
+        
+        <footer>
+            <p id="pie">Creado por: Yelko Santana Gonzalez</p>
+        </footer>
+	</body>
+</html>
