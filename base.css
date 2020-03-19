@@ -1,0 +1,102 @@
+html, body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#BF6F32;
+}
+/* ------------------------HEADER----------------------*/
+header{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 12%;
+        background-color: #FF9442;
+        position: fixed;
+        top: 0%;
+}
+
+.pluma{
+    width: 5%;
+    height: 80%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+h4{
+    margin-right: 5%;
+}
+/* ------------------------MENU------------------------ */
+nav{
+  float: left;
+  display: block;
+  width: 100%;
+  height: 6%;
+  position: fixed;
+  top: 10%;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #804A21;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li:hover:not(.active) {
+  background-color: #422611;
+}
+
+.active {
+  background-color: #422611;
+}
+/* ------------------------CUERPO------------------------ */
+.cuerpo{
+    background-color:#BF6F32;
+    height: 95%;
+    width: 100%;
+    margin-top: 8%;
+}
+/* ------------------------PIE DE PAGINA------------------------ */
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 5%;
+   background-color: #804A21;;
+   color: white;
+   text-align: center;
+}
+
+/* ------------------------ESTILO DE LETRAS------------------------ */
+h1{
+    font-family: 'Tangerine', serif;
+}
+body{
+    font-family: 'Gudea', sans-serif;
+}
+
+.nombre{
+    font-family: 'Gudea', sans-serif;
+}

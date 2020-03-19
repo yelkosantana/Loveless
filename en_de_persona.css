@@ -1,0 +1,66 @@
+/* ------------------------ARTICULO------------*/
+.articulo{
+    float: left;
+    width: 49%;
+    height: 35%;
+    margin-left: 1%;
+}
+.articulodos{
+    float: left;
+    width: 49%;
+    height: 35%;
+    margin-left: 1%;
+}
+.articulotres{
+    float: left;
+    width: 99%;
+    margin-left: 1%;
+    height: 25%;
+    text-align: center;
+}
+.listaromana{
+    list-style-type: upper-roman;
+}
+/* -------------------ANIMACION-----------------*/
+.animacion{
+    float: left;
+    width: 100%;
+    height: 75%;
+}
+.primeroster{
+    float: left;
+    width: 100%;
+}
+.segundoroster{
+    float: left;
+    width: 100%;
+}
+.personajes{
+  animation: muevete 10s infinite normal .5s ease-out;
+  -webkit-animation: muevete 10s infinite normal .5s ease-out;
+  position: relative;
+  height: 15%;
+}
+@keyframes muevete {
+  0%, 100%{
+    left:0%;
+  }
+  45%{
+    left: 15%;
+    -ms-transform: rotateY(0deg); /* IE 9 */
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    transform:rotateY(0deg);
+  }
+  55%{
+    left:15s%;
+    -ms-transform: rotateY(-180deg); /* IE 9 */
+    -webkit-transform: rotateY(-180deg); /* Chrome, Safari, Opera */
+    transform:rotateY(-180deg);
+  }
+  90%{
+    left:0;
+    -ms-transform: rotateY(-180deg); /* IE 9 */
+    -webkit-transform: rotateY(-180deg); /* Chrome, Safari, Opera */
+    transform:rotateY(-180deg);
+  }
+}

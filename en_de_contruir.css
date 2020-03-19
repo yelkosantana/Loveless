@@ -1,0 +1,17 @@
+/* ----------------ARTICULO-----------------*/
+.articulo{
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 2%;
+    float: left;
+}
+/* ----------------"sANIMACION" PERO HICE GIF BUSCAR PROYECTO ESTA COMO LO HICE UN CSS Y HTML APARTE-----------------*/
+.gif{
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+.persecucion{
+    width: 100%;
+    height: 100%;
+}
